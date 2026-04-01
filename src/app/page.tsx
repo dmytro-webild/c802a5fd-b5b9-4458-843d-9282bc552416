@@ -6,7 +6,7 @@ import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
+import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 
 export default function LandingPage() {
   return (
@@ -51,16 +51,17 @@ export default function LandingPage() {
         </div>
 
         <div id="reviews" data-section="reviews">
-            <TestimonialCardTen
+            <TestimonialCardSix
+              animationType="blur-reveal"
+              title="What Our Clients Say"
+              description="Read authentic reviews from our satisfied gentlemen."
               textboxLayout="default"
               useInvertedBackground={true}
               testimonials={[
-                { id: "1", title: "Great Experience", quote: "The best haircut in Prague! Professional and clean service.", name: "Jan Svoboda", role: "Regular Client" },
-                { id: "2", title: "Professional Shop", quote: "Fantastic attention to detail. Highly recommend The Barber House.", name: "Petr Novak", role: "Business Professional" },
-                { id: "3", title: "Top Quality", quote: "I've been looking for a consistent barber, and this is the place.", name: "David Dvořák", role: "IT Consultant" }
+                { id: "1", name: "Jan Svoboda", handle: "@jan_s", testimonial: "The best haircut in Prague! Professional and clean service." },
+                { id: "2", name: "Petr Novak", handle: "@petr_n", testimonial: "Fantastic attention to detail. Highly recommend The Barber House." },
+                { id: "3", name: "David Dvořák", handle: "@david_d", testimonial: "I've been looking for a consistent barber, and this is the place." }
               ]}
-              title="What Our Clients Say"
-              description="Read authentic reviews from our satisfied gentlemen."
             />
         </div>
 
