@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -66,16 +66,19 @@ export default function LandingPage() {
         </div>
 
         <div id="contact" data-section="contact">
-            <ContactCTA
-              tag="Visit Us"
+            <ContactSplitForm
               title="Book Your Appointment"
-              description="Visit us at Libušská 319, Praha, or contact us directly via email at info@thebarbershop.cz or by phone at 773 858 868."
-              buttons={[
-                { text: "Call Now", href: "tel:773858868" },
-                { text: "Email Us", href: "mailto:info@thebarbershop.cz" }
+              description="Visit us at Libušská 319, Praha. Fill in your details below and we will get back to you shortly to confirm your booking."
+              inputs={[
+                { name: "name", type: "text", placeholder: "Full Name", required: true },
+                { name: "email", type: "email", placeholder: "Email Address", required: true }
               ]}
-              background={{ variant: "sparkles-gradient" }}
+              textarea={{ name: "message", placeholder: "How can we help?", rows: 4 }}
+              buttonText="Submit Request"
               useInvertedBackground={true}
+              imageSrc="http://img.b2bpic.net/free-photo/barber-shop-interior-design_23-2148967923.jpg"
+              imageAlt="Contact Us"
+              mediaPosition="right"
             />
         </div>
 
