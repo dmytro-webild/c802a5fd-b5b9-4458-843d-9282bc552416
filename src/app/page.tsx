@@ -56,23 +56,23 @@ export default function LandingPage() {
       tag="Expert Grooming"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=1",
           imageAlt: "Barber shop scene",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=2",
           imageAlt: "Professional grooming",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=3",
           imageAlt: "Modern haircut",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=4",
           imageAlt: "Detail trim",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=5",
           imageAlt: "Barber tools",
         },
       ]}
@@ -93,7 +93,7 @@ export default function LandingPage() {
           quote: "The best haircut in Prague! Professional and clean service.",
           name: "Jan Svoboda",
           role: "Regular Client",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=1",
         },
         {
           id: "2",
@@ -125,7 +125,7 @@ export default function LandingPage() {
           quote: "Sharp fades and great beard care every single visit.",
           name: "Jakub Marek",
           role: "Designer",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=2",
         },
       ]}
       title="What Our Clients Say"
