@@ -36,7 +36,7 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
             <HeroSplitDualMedia
-              background={{ variant: "plain" }}
+              background={{ variant: "animated-grid" }}
               title="Timeless Style for the Modern Man"
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
@@ -73,7 +73,7 @@ export default function LandingPage() {
                 { text: "Call Now", href: "tel:773858868" },
                 { text: "Email Us", href: "mailto:info@thebarbershop.cz" }
               ]}
-              background={{ variant: "plain" }}
+              background={{ variant: "animated-grid" }}
               useInvertedBackground={false}
             />
         </div>
