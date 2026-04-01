@@ -16,11 +16,11 @@ export default function LandingPage() {
         borderRadius="rounded"
         contentWidth="mediumSmall"
         sizing="mediumLargeSizeMediumTitles"
-        background="floatingGradient"
-        cardStyle="gradient-radial"
-        primaryButtonStyle="diagonal-gradient"
+        background="none"
+        cardStyle="outline"
+        primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
-        headingFontWeight="extrabold"
+        headingFontWeight="semibold"
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
@@ -36,7 +36,7 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
             <HeroSplitDualMedia
-              background={{ variant: "gradient-bars" }}
+              background={{ variant: "plain" }}
               title="Timeless Style for the Modern Man"
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
