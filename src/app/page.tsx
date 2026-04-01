@@ -49,9 +49,9 @@ export default function LandingPage() {
       tag="Expert Grooming"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",          imageAlt: "Barber shop scene"},
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=1",          imageAlt: "Barber shop scene"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg",          imageAlt: "Professional grooming"}
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=2",          imageAlt: "Professional grooming"}
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -65,7 +65,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          title: "Great Experience",          quote: "The best haircut in Prague! Professional and clean service.",          name: "Jan Svoboda",          role: "Regular Client",          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg"},
+          id: "1",          title: "Great Experience",          quote: "The best haircut in Prague! Professional and clean service.",          name: "Jan Svoboda",          role: "Regular Client",          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=1"},
         {
           id: "2",          title: "Professional Shop",          quote: "Fantastic attention to detail. Highly recommend The Barber House.",          name: "Petr Novak",          role: "Business Professional",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-young-businesswoman_329181-15813.jpg"},
         {
@@ -73,7 +73,7 @@ export default function LandingPage() {
         {
           id: "4",          title: "Relaxed Atmosphere",          quote: "Very comfortable experience, great conversation and excellent cut.",          name: "Tomáš Černý",          role: "Student",          imageSrc: "http://img.b2bpic.net/free-photo/barber-using-shaving-cream-contour-male-customer-s-beard_23-2148985738.jpg"},
         {
-          id: "5",          title: "Precision Work",          quote: "Sharp fades and great beard care every single visit.",          name: "Jakub Marek",          role: "Designer",          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg"},
+          id: "5",          title: "Precision Work",          quote: "Sharp fades and great beard care every single visit.",          name: "Jakub Marek",          role: "Designer",          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=2"},
       ]}
       title="What Our Clients Say"
       description="Read authentic reviews from our satisfied gentlemen."
