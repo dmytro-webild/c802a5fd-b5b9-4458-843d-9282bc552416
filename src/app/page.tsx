@@ -36,7 +36,7 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
             <HeroSplitDualMedia
-              background={{ variant: "animated-grid" }}
+              background={{ variant: "sparkles-gradient" }}
               title="Timeless Style for the Modern Man"
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
@@ -53,7 +53,7 @@ export default function LandingPage() {
         <div id="reviews" data-section="reviews">
             <TestimonialCardTen
               textboxLayout="default"
-              useInvertedBackground={false}
+              useInvertedBackground={true}
               testimonials={[
                 { id: "1", title: "Great Experience", quote: "The best haircut in Prague! Professional and clean service.", name: "Jan Svoboda", role: "Regular Client" },
                 { id: "2", title: "Professional Shop", quote: "Fantastic attention to detail. Highly recommend The Barber House.", name: "Petr Novak", role: "Business Professional" },
@@ -73,8 +73,8 @@ export default function LandingPage() {
                 { text: "Call Now", href: "tel:773858868" },
                 { text: "Email Us", href: "mailto:info@thebarbershop.cz" }
               ]}
-              background={{ variant: "animated-grid" }}
-              useInvertedBackground={false}
+              background={{ variant: "sparkles-gradient" }}
+              useInvertedBackground={true}
             />
         </div>
 
