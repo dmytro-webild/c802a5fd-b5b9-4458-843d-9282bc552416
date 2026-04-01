@@ -74,6 +74,7 @@ export default function LandingPage() {
                 { text: "Email Us", href: "mailto:info@thebarbershop.cz" }
               ]}
               background={{ variant: "plain" }}
+              useInvertedBackground={false}
             />
         </div>
 
