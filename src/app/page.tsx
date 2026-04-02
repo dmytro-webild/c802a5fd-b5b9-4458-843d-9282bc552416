@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 
 export default function LandingPage() {
@@ -24,7 +24,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-            <NavbarLayoutFloatingOverlay
+            <NavbarStyleFullscreen
               navItems={[
                 { name: "Home", id: "hero" },
                 { name: "Reviews", id: "reviews" },
