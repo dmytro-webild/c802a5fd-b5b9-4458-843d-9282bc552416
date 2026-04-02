@@ -37,7 +37,7 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
             <HeroSplitDualMedia
               background={{ variant: "sparkles-gradient" }}
-              title="Timeless Style for the Modern Man"
+              title="The Barber House"
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
               mediaItems={[
