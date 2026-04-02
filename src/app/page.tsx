@@ -41,8 +41,8 @@ export default function LandingPage() {
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
               mediaItems={[
-                { imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=1", imageAlt: "Barber shop scene" },
-                { imageSrc: "http://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=2", imageAlt: "Professional grooming" }
+                { imageSrc: "https://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=1", imageAlt: "Barber shop scene" },
+                { imageSrc: "https://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=2", imageAlt: "Professional grooming" }
               ]}
               mediaAnimation="blur-reveal"
               rating={5}
@@ -76,7 +76,7 @@ export default function LandingPage() {
               textarea={{ name: "message", placeholder: "How can we help?", rows: 4 }}
               buttonText="Submit Request"
               useInvertedBackground={true}
-              imageSrc="http://img.b2bpic.net/free-photo/barber-shop-interior-design_23-2148967923.jpg"
+              imageSrc="https://img.b2bpic.net/free-photo/barber-shop-interior-design_23-2148967923.jpg"
               imageAlt="Contact Us"
               mediaPosition="right"
             />
