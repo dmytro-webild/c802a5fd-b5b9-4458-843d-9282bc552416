@@ -6,7 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
+import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 
 export default function LandingPage() {
   return (
@@ -51,16 +51,17 @@ export default function LandingPage() {
         </div>
 
         <div id="reviews" data-section="reviews">
-            <TestimonialCardSix
+            <TestimonialCardThirteen
               animationType="blur-reveal"
               title="What Our Clients Say"
               description="Read authentic reviews from our satisfied gentlemen."
               textboxLayout="default"
               useInvertedBackground={true}
+              showRating={true}
               testimonials={[
-                { id: "1", name: "Jan Svoboda", handle: "@jan_s", testimonial: "The best haircut in Prague! Professional and clean service." },
-                { id: "2", name: "Petr Novak", handle: "@petr_n", testimonial: "Fantastic attention to detail. Highly recommend The Barber House." },
-                { id: "3", name: "David Dvořák", handle: "@david_d", testimonial: "I've been looking for a consistent barber, and this is the place." }
+                { id: "1", name: "Jan Svoboda", handle: "@jan_s", testimonial: "The best haircut in Prague! Professional and clean service.", rating: 5 },
+                { id: "2", name: "Petr Novak", handle: "@petr_n", testimonial: "Fantastic attention to detail. Highly recommend The Barber House.", rating: 5 },
+                { id: "3", name: "David Dvořák", handle: "@david_d", testimonial: "I've been looking for a consistent barber, and this is the place.", rating: 5 }
               ]}
             />
         </div>
