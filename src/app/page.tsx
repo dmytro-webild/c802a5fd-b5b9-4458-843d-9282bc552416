@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
-import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 
 export default function LandingPage() {
@@ -24,7 +24,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-            <NavbarStyleCentered
+            <NavbarStyleFullscreen
               navItems={[
                 { name: "Home", id: "hero" },
                 { name: "Reviews", id: "reviews" },
@@ -41,8 +41,8 @@ export default function LandingPage() {
               description="Experience professional grooming at The Barber House. From traditional cuts to modern fades, our skilled barbers deliver perfection."
               tag="Expert Grooming"
               mediaItems={[
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1775565880878-ua9xs0yj.jpg", imageAlt: "Barber shop scene" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1775565953362-27x8ieir.jpg", imageAlt: "Professional grooming" }
+                { imageSrc: "https://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=1", imageAlt: "Barber shop scene" },
+                { imageSrc: "https://img.b2bpic.net/free-photo/bearded-client-just-got-good-beardcare-from-talanted-trendy-barber_613910-21575.jpg?_wi=2", imageAlt: "Professional grooming" }
               ]}
               mediaAnimation="blur-reveal"
               rating={5}
@@ -58,10 +58,9 @@ export default function LandingPage() {
               textboxLayout="default"
               useInvertedBackground={true}
               testimonials={[
-                { id: "1", name: "Nam Le-Hoang", handle: "@jan_s", testimonial: "Barbeři se vyznají v práci! Naprostá spokojenost.
-" },
-                { id: "2", name: "Radovan Jansa", handle: "@petr_n", testimonial: "Skvělé služby a střih vlasů. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️" },
-                { id: "3", name: "Achala Fernando", handle: "@david_d", testimonial: "Velmi dobrá obsluha! Vřele doporučuji" }
+                { id: "1", name: "Jan Svoboda", handle: "@jan_s", testimonial: "The best haircut in Prague! Professional and clean service." },
+                { id: "2", name: "Petr Novak", handle: "@petr_n", testimonial: "Fantastic attention to detail. Highly recommend The Barber House." },
+                { id: "3", name: "David Dvořák", handle: "@david_d", testimonial: "I've been looking for a consistent barber, and this is the place." }
               ]}
             />
         </div>
@@ -77,7 +76,7 @@ export default function LandingPage() {
               textarea={{ name: "message", placeholder: "How can we help?", rows: 4 }}
               buttonText="Submit Request"
               useInvertedBackground={true}
-              imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1775565926960-mx6hlut7.jpg"
+              imageSrc="https://img.b2bpic.net/free-photo/barber-shop-interior-design_23-2148967923.jpg"
               imageAlt="Contact Us"
               mediaPosition="right"
             />
