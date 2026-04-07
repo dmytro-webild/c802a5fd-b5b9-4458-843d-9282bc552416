@@ -59,9 +59,10 @@ export default function LandingPage() {
               useInvertedBackground={true}
               showRating={true}
               testimonials={[
-                { id: "1", name: "Jan Svoboda", handle: "@jan_s", testimonial: "The best haircut in Prague! Professional and clean service.", rating: 5 },
-                { id: "2", name: "Petr Novak", handle: "@petr_n", testimonial: "Fantastic attention to detail. Highly recommend The Barber House.", rating: 5 },
-                { id: "3", name: "David Dvořák", handle: "@david_d", testimonial: "I've been looking for a consistent barber, and this is the place.", rating: 5 }
+                { id: "1", name: "Nam Le-Hoang", handle: "", testimonial: "Barbeři se vyznají v práci! Naprostá spokojenost.", rating: 5 },
+                { id: "2", name: "Radovan Jansa", handle: "", testimonial: "Skvělé služby a střih vlasů. Teď také výrazně rozšířili a zmodernizovali prostory holičství. Určitě doporučuji 👍💈✂️💇‍♂️
+", rating: 5 },
+                { id: "3", name: "Nam Trương", handle: "", testimonial: "Zkušení barbeři. Vřele doporučuji.", rating: 5 }
               ]}
             />
         </div>
